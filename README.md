@@ -4,7 +4,6 @@ An internship assignment developed for Underpin Technology, featuring a smart mu
 
 Project developed by: Kasak Gupta
 
-Project Overview-
 Engine: Unity 6 (6000.0.47f1)
 
 Environment: 2D Simulation
@@ -13,7 +12,6 @@ Scope: 3 Elevators, 5 Floors (Ground, 1st, 2nd, 3rd, 4th)
 
 Duration: 2-day development window
 
-Technical Implementation-
 Modular Architecture: Organized into 3 clean scripts: ElevatorController, ElevatorManager, and FloorButton.
 
 Synchronized Physics: All elevators feature identical speeds and smooth Vector3 transitions to ensure zero "teleportation" between floors.
