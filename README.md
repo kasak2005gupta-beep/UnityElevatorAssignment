@@ -6,14 +6,20 @@ Project developed by: Kasak Gupta
 
 Project Overview-
 Engine: Unity 6 (6000.0.47f1)
+
 Environment: 2D Simulation
+
 Scope: 3 Elevators, 5 Floors (Ground, 1st, 2nd, 3rd, 4th)
+
 Duration: 2-day development window
 
-Technical Implementation
+Technical Implementation-
 Modular Architecture: Organized into 3 clean scripts: ElevatorController, ElevatorManager, and FloorButton.
+
 Synchronized Physics: All elevators feature identical speeds and smooth Vector3 transitions to ensure zero "teleportation" between floors.
+
 Organized groups: 3 folders (scripts, prefabs, scenes)
+
 Submitted as: .unitypackage with dependencies included
 
 Issue i faced: the standard 'nearest lift' logic caused lift1 to get stuck working on floor 3 and 4 ONLY, lift2 to get stuck working on floor 1 and 2 ONLY and lift3 to not move cause it was on ground floor from the start.
